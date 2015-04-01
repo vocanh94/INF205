@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FC37E87-19A5-4C07-A9E3-5B74F9F78620}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>canhvvps02244_inf205.My.MyApplication</StartupObject>
+    <RootNamespace>canhvvps02244_inf205</RootNamespace>
+    <AssemblyName>canhvvps02244_inf205</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>canhvvps02244_inf205.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>canhvvps02244_inf205.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Finder.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chuc nang\Ghi_hoa_don.Designer.vb">
+      <DependentUpon>Ghi_hoa_don.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chuc nang\Ghi_hoa_don.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuc nang\In_hoa_don.Designer.vb">
+      <DependentUpon>In_hoa_don.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chuc nang\In_hoa_don.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuc nang\Xem_hoa_don.Designer.vb">
+      <DependentUpon>Xem_hoa_don.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chuc nang\Xem_hoa_don.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danh muc\Khach_hang.Designer.vb">
+      <DependentUpon>Khach_hang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Danh muc\Khach_hang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danh muc\Loai_san_pham.Designer.vb">
+      <DependentUpon>Loai_san_pham.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Danh muc\Loai_san_pham.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danh muc\San_pham.Designer.vb">
+      <DependentUpon>San_pham.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Danh muc\San_pham.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danh muc\Sua_loai_san_pham.Designer.vb">
+      <DependentUpon>Sua_loai_san_pham.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Danh muc\Sua_loai_san_pham.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danh muc\Them_khach_hang.Designer.vb">
+      <DependentUpon>Them_khach_hang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Danh muc\Them_khach_hang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="He thong\Nguoi_dung.Designer.vb">
+      <DependentUpon>Nguoi_dung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="He thong\Nguoi_dung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="He thong\Them.Designer.vb">
+      <DependentUpon>Them.vb</DependentUpon>
+    </Compile>
+    <Compile Include="He thong\Them.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order\Help.Designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Order\Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order\info.Designer.vb">
+      <DependentUpon>info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Order\info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order\loading.Designer.vb">
+      <DependentUpon>loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Order\loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Order\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Order\Quantri.Designer.vb">
+      <DependentUpon>Quantri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Order\Quantri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chuc nang\Ghi_hoa_don.resx">
+      <DependentUpon>Ghi_hoa_don.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chuc nang\In_hoa_don.resx">
+      <DependentUpon>In_hoa_don.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chuc nang\Xem_hoa_don.resx">
+      <DependentUpon>Xem_hoa_don.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danh muc\Khach_hang.resx">
+      <DependentUpon>Khach_hang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danh muc\Loai_san_pham.resx">
+      <DependentUpon>Loai_san_pham.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danh muc\San_pham.resx">
+      <DependentUpon>San_pham.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danh muc\Sua_loai_san_pham.resx">
+      <DependentUpon>Sua_loai_san_pham.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danh muc\Them_khach_hang.resx">
+      <DependentUpon>Them_khach_hang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="He thong\Nguoi_dung.resx">
+      <DependentUpon>Nguoi_dung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="He thong\Them.resx">
+      <DependentUpon>Them.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\Help.resx">
+      <DependentUpon>Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\info.resx">
+      <DependentUpon>info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\loading.resx">
+      <DependentUpon>loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\Quantri.resx">
+      <DependentUpon>Quantri.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_fpoly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Finder.ico" />
+    <None Include="Resources\17.PNG" />
+    <None Include="Resources\16.PNG" />
+    <None Include="Resources\15.PNG" />
+    <None Include="Resources\13.PNG" />
+    <None Include="Resources\12.PNG" />
+    <None Include="Resources\9.PNG" />
+    <None Include="Resources\7.PNG" />
+    <None Include="Resources\4.PNG" />
+    <None Include="Resources\2.PNG" />
+    <None Include="Resources\Windows_7.jpg" />
+    <None Include="Resources\Finder.png" />
+    <None Include="Resources\canh.png" />
+    <None Include="Resources\Print.ico" />
+    <None Include="Resources\Untitled1.png" />
+    <None Include="Resources\Internet.png" />
+    <None Include="Resources\Fav %28Star%29.png" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\Stats.png" />
+    <None Include="Resources\Download.png" />
+    <None Include="Resources\System.png" />
+    <None Include="Resources\Maintenance.png" />
+    <None Include="Resources\Notepad.png" />
+    <None Include="Resources\Address Book.png" />
+    <None Include="Resources\Printer.png" />
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\Edit.png" />
+    <None Include="Resources\Organize.png" />
+    <None Include="Resources\Misc-Box.png" />
+    <None Include="Resources\WLM.png" />
+    <None Include="Resources\Shutdown.png" />
+    <None Include="Resources\Tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxFOXITREADERLib">
+      <Guid>{3A8BD65E-9922-4162-A649-83F2D5326BBE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="FOXITREADERLib">
+      <Guid>{3A8BD65E-9922-4162-A649-83F2D5326BBE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
