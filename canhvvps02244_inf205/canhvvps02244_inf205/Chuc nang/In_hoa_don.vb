@@ -22,3 +22,6 @@
         Xem_hoa_don.Enabled = True
     End Sub
 End Class
+    '***************************************
+    '******De nghi chinh sua phan nay
+    '***************************************
