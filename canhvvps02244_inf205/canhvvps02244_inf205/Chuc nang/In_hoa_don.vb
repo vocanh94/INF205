@@ -22,3 +22,5 @@
         Xem_hoa_don.Enabled = True
     End Sub
 End Class
+
+"**********************************
